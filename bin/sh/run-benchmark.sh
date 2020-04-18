@@ -20,7 +20,7 @@
 
 set -e
 
-rootdir=$(dirname $(readlink -f ${BASH_SOURCE[0]}))/../../
+rootdir=graphalytics-platforms-kafka-graphs
 config="${rootdir}/config/"
 
 function print-usage() {
